@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Cambo_Tests' do
+  pod 'Cambo', :path => '../'
+  
+  
+end
