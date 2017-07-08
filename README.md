@@ -17,7 +17,7 @@ Cambo is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Cambo" , "~> 0.1.1"
+pod 'Cambo' , '~> 0.1.1'
 ```
 
 ## Author
