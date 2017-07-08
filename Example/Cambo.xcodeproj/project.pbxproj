@@ -15,12 +15,12 @@
 		3DB99BBA4CB05A5C5778A7F8 /* Pods_Cambo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cambo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD255279675AC4E6B6F1E46 /* Pods-Cambo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cambo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cambo_Tests/Pods-Cambo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4174DCD0966C5CEC273D0FFE /* Pods-Cambo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cambo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cambo_Tests/Pods-Cambo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A42C1087BD1E65537D53124 /* Cambo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Cambo.podspec; path = ../Cambo.podspec; sourceTree = "<group>"; };
+		4A42C1087BD1E65537D53124 /* Cambo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Cambo.podspec; path = ../Cambo.podspec; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Cambo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cambo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		F69F5ACCFCE542C3C125FD51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F899BAB01928376524C0139F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F69F5ACCFCE542C3C125FD51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F899BAB01928376524C0139F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +131,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A22AVG7LDG;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -321,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FD255279675AC4E6B6F1E46 /* Pods-Cambo_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A22AVG7LDG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -330,6 +328,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,11 +340,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4174DCD0966C5CEC273D0FFE /* Pods-Cambo_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A22AVG7LDG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

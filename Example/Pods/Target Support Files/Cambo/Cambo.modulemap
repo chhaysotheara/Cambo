@@ -1,0 +1,6 @@
+framework module Cambo {
+  umbrella header "Cambo-umbrella.h"
+
+  export *
+  module * { export * }
+}

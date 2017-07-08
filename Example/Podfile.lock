@@ -1,0 +1,16 @@
+PODS:
+  - Cambo (0.1.0)
+
+DEPENDENCIES:
+  - Cambo (from `../`)
+
+EXTERNAL SOURCES:
+  Cambo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Cambo: 7f0b18bdfe6058eda9a536d33788190b4a02f94c
+
+PODFILE CHECKSUM: fd8d977dbecc117351887f464b3a1ebe00ab9170
+
+COCOAPODS: 1.2.1
